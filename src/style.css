@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@200&display=swap');
+
+*{
+    margin:0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#main-contenedor{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: rgb(0, 105, 146);
+}
+
+#quote-box{
+    border-radius: 3px;
+    position: relative;
+    width: 450px;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+#text{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#author{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+#new-quote{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 25px;
+}
+#new-quote button{
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #3333336e;
+    outline: none;
+    font-size: 0.85em;
+    padding: 8px 18px 6px 18px;
+    opacity: 1;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#new-quote a{
+    height: 25px;
+    border-radius: 3px;
+    background-color: #3333336e;
+    padding: 9px 13px 6px 18px;
+}
+
+#new-quote img{
+    width: 25px;
+    height: 26px;
+    margin-left: -5px;
+}
